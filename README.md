@@ -1,5 +1,6 @@
 # PoliMi LAMP
 _NB: personale, unofficial, sono uno studente_
+
 Ho creato questa repository per provare OpenBPMN durante il LAMP. Il corso usa Signavio, che però è stato comprato da SAP, che potrebbe decidere di metterlo a pagamento o di rimuovere la possibilità a chiunque di iscriversi dato che immagino possa pesare sui server. Preferisco tenermi al sicuro con qualcosa che so che posso scaricare e usare sempre, come OpenBPMN.
 ## Come scaricare OpenBPMN
 Ci sono diversi modi, io sto usando l'estensione "OpenBPMN" che trovate su VS Code, che funziona anche offline a differenza del Signavio visto a lezione. Inoltre VS Code ha git integrato quindi è facile da usare in gruppo con gli amici, ma ovviamente se preferite un altro IDE, OpenBPMN funzionerà lo stesso. Vi lascio un paio di link utili:
