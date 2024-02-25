@@ -1,5 +1,5 @@
 # PoliMi LAMP OpenBPMN (alternativa a Signavio)
-_NB: personale, unofficial, sono uno studente_
+_NB: personale, unofficial, sono solo uno studente, il prof ha detto di usare Signavio quindi questo è solo se volete fare i pazzi_
 
 Ho creato questa repository per provare OpenBPMN durante il LAMP. Il corso usa Signavio, che però è stato comprato da SAP, che potrebbe decidere di metterlo a pagamento o di rimuovere la possibilità a chiunque di iscriversi dato che immagino possa pesare sui server. Preferisco tenermi al sicuro con qualcosa che so che posso scaricare e usare sempre, come OpenBPMN. Inoltre OpenBPMN ha la darkmode, Signavio no. Tuttavia ci sono anche degli svantaggi (o forse sono io ancora un nabbo) tipo non ho idea di come fare il controllo automatico della logica dei processi che fa Signavio, su OpenBPMN.
 ## Come scaricare OpenBPMN
