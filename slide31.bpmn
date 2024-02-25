@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bpmn2:definitions xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:open-bpmn="http://open-bpmn.org/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" exporter="org.openbpmn" exporterVersion="1.0.0" targetNamespace="http://open-bpmn.org" xmlns:bpmn2="http://www.omg.org/spec/BPMN/20100524/MODEL">
+  <bpmn2:process id="process_1" name="Default Process" processType="Public">
+    <bpmn2:documentation id="documentation_P1y50A"/>
+    <bpmn2:task id="task_T2Dh5g" name="Task 1">
+      <bpmn2:documentation id="documentation_PM0BAw"/>
+      <bpmn2:incoming>sequenceFlow_voVgug</bpmn2:incoming>
+    </bpmn2:task>
+    <bpmn2:startEvent id="event_mAxy2w" name="Event-1">
+      <bpmn2:documentation id="documentation_1E7GNA"/>
+      <bpmn2:outgoing>sequenceFlow_voVgug</bpmn2:outgoing>
+    </bpmn2:startEvent>
+    <bpmn2:sequenceFlow id="sequenceFlow_voVgug" sourceRef="event_mAxy2w" targetRef="task_T2Dh5g">
+      <bpmn2:documentation id="documentation_rP3dJw"/>
+    </bpmn2:sequenceFlow>
+    <bpmn2:textAnnotation id="textAnnotation_ucR2tw" textFormat="">
+      <bpmn2:text id="text_eJKvfw"><![CDATA[Questa è solo una prova per fare una prima commit
+]]></bpmn2:text>
+      <bpmn2:documentation id="documentation_5Om6xg"/>
+    </bpmn2:textAnnotation>
+  </bpmn2:process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1" name="OpenBPMN Diagram">
+    <bpmndi:BPMNPlane bpmnElement="process_1" id="BPMNPlane_1">
+      <bpmndi:BPMNShape bpmnElement="task_T2Dh5g" id="BPMNShape_YpKbMg">
+        <dc:Bounds height="50.0" width="110.0" x="100.0" y="130.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="event_mAxy2w" id="BPMNShape_QZLm0g">
+        <dc:Bounds height="36.0" width="36.0" x="-30.0" y="137.0"/>
+        <bpmndi:BPMNLabel id="BPMNLabel_oRJtJA">
+          <dc:Bounds height="20.0" width="100.0" x="-62.0" y="176.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge bpmnElement="sequenceFlow_voVgug" id="BPMNEdge_U5bYPA" sourceElement="BPMNShape_QZLm0g" targetElement="BPMNShape_YpKbMg">
+        <di:waypoint x="6.0" y="155.0"/>
+        <di:waypoint x="100.0" y="155.0"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape bpmnElement="textAnnotation_ucR2tw" id="BPMNShape_1gwAzA">
+        <dc:Bounds height="80.0" width="215.0" x="-7.5" y="5.0"/>
+      </bpmndi:BPMNShape>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn2:definitions>
